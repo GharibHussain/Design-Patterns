@@ -16,10 +16,9 @@ public class Database{
     public Database getInstance(String name){
         if (instance == null){
             instance = new Database(name);
-            return instance;
-        } else {
-            return instance;
         }
+
+        return instance;
     }
 
 
